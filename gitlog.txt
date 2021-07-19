@@ -1,0 +1,131 @@
+commit 2a80a633b073c1ed4fbc218df7c9e2dc6a948e46
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 20:23:30 2021 +0300
+
+    fixed some typos, error in console did not clear
+
+ script.js | 121 ++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 58 insertions(+), 63 deletions(-)
+
+commit 19f3186039fa2db1378ee3070fd0bea94a970be9
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 20:04:50 2021 +0300
+
+    added a reset function
+
+ script.js | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit f3f6727f05992c0718cdb90aea2c98099877d0af
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 20:03:10 2021 +0300
+
+    added a last block of code,which covers game ending
+
+ script.js | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit a03d1b89b4bc429d92119251e0bbd9bb845e8533
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 19:35:52 2021 +0300
+
+    added a Submit call to the guess function
+
+ script.js | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 46328883287359dd29fb59727f249f9efc9746e7
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 19:34:46 2021 +0300
+
+    changed the guess function to work properly
+
+ script.js | 28 +++++++++++++++++++++++++++-
+ 1 file changed, 27 insertions(+), 1 deletion(-)
+
+commit edb6dd0a3b52038c08cf9d52ed7036d356338155
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 19:29:04 2021 +0300
+
+    made a placeholder function
+
+ script.js | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit cdc8434c9c9742057b9d501133b5327280fb4cd7
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 19:25:50 2021 +0300
+
+    added variables to work with
+
+ script.js | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit 405079d422486cd18fae4df2d8080aa74c10c86d
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 19:23:48 2021 +0300
+
+    added a new layout for the game
+
+ index.html | 20 +++++++++++++++++---
+ script.js  |  8 --------
+ style.css  | 29 +++++++++++++++--------------
+ 3 files changed, 32 insertions(+), 25 deletions(-)
+
+commit 7913a85bfabfc5e6e57a2f6e70480a142e8cc840
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Mon Jul 19 17:27:26 2021 +0300
+
+    cleared some typos
+
+ index.html | 2 +-
+ script.js  | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 1d58df21947912fd0d19c8fa529142d31c47eefa
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Sun Jul 18 21:50:31 2021 +0300
+
+    cleared some typos
+
+ script.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0456bdab396d723971603c68a0a3fa94411790fd
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Sun Jul 18 21:48:06 2021 +0300
+
+    Declared a variable and added functionalities
+
+ script.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3efd6e5462eb2f68f05b4ac2632f985dc715fca3
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Sun Jul 18 21:46:30 2021 +0300
+
+    Defined variable para with a query and added event listener to it. Needed a function for updating the name
+
+ script.js | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit d6c0bf974ad32eafe9569da77c30829635ec51a3
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Sun Jul 18 21:41:06 2021 +0300
+
+    added player to the body and styles for the p tag
+
+ index.html |  2 +-
+ style.css  | 14 ++++++++++++++
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+
+commit b0e7ee79456891e013b7ec947a8a741a0d0804bd
+Author: Rolle Kekki <r2101k@protonmail.com>
+Date:   Sun Jul 18 21:35:47 2021 +0300
+
+    initialized a design
+
+ index.html | 14 ++++++++++++++
+ script.js  |  0
+ style.css  |  0
+ 3 files changed, 14 insertions(+)
